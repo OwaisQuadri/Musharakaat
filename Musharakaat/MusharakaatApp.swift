@@ -12,6 +12,7 @@ struct MusharakaatApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .addKeyboardVisibilityToEnvironment()
         }
     }
 }
